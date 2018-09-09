@@ -19,7 +19,7 @@ public class MailPage {
     @FindBy(css = ".mail-User-Name")
     private WebElement userNameButton;
 
-    @FindBy(xpath = "//a[@class=\"b-mail-dropdown__item__content js-user-dropdown-item \"][text()='Выход']")
+    @FindBy(xpath = "//a[@class=\"b-mail-dropdown__item__content js-user-dropdown-item \"][text()='Выйти из сервисов Яндекса']")
     private WebElement logOutButton;
 
     private final static Integer NUMBER_OF_STANDARD_FOLDERS = 5;
